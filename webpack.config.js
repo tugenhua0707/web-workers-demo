@@ -30,7 +30,7 @@ module.exports = {
     filename: process.env.NODE_ENV === 'production' ? '[name].[contenthash].js' : '[name].js',
     // 将输出的文件都放在dist目录下
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: '/',
     globalObject: 'this'
   },
   module: {
